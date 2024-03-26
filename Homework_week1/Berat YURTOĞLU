@@ -1,0 +1,17 @@
+Algoritma adımlarını yazma: 
+
+Uyanıp dışarı çıkma algoritması adımları = Uyan > doğrul > bir ayağını yere koy > öbür ayağını da yere koy > ayaklarının üstüne kalk > kapıa yönel > yürü > elini kapının koluna koy > kapıyı aç > dışarı çık > kapıya dön > elini kapının koluna koy > kapıyı kapat > dışarı yönel > dışarı doğru yürü 
+
+ 
+
+Java da hello world yazdıran kod: 
+
+public class HelloWorld { 
+
+    public static void main(String[] args) { 
+
+        System.out.println("Hello, World!"); 
+
+    } 
+
+} 
