@@ -1,0 +1,18 @@
+//Simple Calculator
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("İki sayi gir: ");
+        int sayi1 = scanner.nextInt();
+        int sayi2 = scanner.nextInt();
+        int topla = sayi1 + sayi2;
+        int cikar = sayi1 - sayi2;
+        int carp = sayi1 * sayi2;
+        int bol = sayi1 / sayi2;
+        System.out.println("Toplam: " + topla);
+        System.out.println("Çıkarma: " + cikar);
+        System.out.println("Çarpım: " + carp);
+        System.out.println("Bölüm: " + bol);
+    }
+}
